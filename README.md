@@ -17,5 +17,3 @@ Then you can run the executable.
 
 Input the length of the first and second side, and then it will return to you the hypotenuse. Pretty easy.
 
-
-
