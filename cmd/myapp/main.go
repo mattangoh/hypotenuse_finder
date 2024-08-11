@@ -18,6 +18,8 @@ func main() {
       fmt.Println("Error... Please enter a valid float")
       var discard string
       fmt.Scanln(&discard)
+    } else if x <= 0{
+       fmt.Println("Error... Please enter a positive float") 
     } else {
         break
     }
@@ -30,6 +32,8 @@ func main() {
         fmt.Println("Error... Please enter a valid float")
         var discard string
         fmt.Scanln(&discard)
+      } else if x <= 0{
+          fmt.Println("Error... Please enter a positive float") 
       } else {
           break
       }
