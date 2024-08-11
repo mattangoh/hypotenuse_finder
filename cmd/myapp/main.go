@@ -39,12 +39,12 @@ func main() {
       }
   }    
   
-  hyp := calculateHypotenuse(x, y)
+  hyp := CalculateHypotenuse(x, y)
 
   fmt.Printf("The hypotenuse is %v!", hyp)
 
 }
 
-func calculateHypotenuse(x, y float64) float64 {
+func CalculateHypotenuse(x, y float64) float64 {
   return math.Sqrt(math.Pow(x, 2) + math.Pow(y, 2))
 }
